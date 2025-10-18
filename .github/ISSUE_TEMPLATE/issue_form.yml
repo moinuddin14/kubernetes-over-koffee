@@ -57,13 +57,6 @@ body:
     validations:
       required: true
 
-  - type: input
-    id: form_sig_label
-    attributes:
-      label: SIG label (auto)
-      description: Internal: the selected SIG label. Do not edit.
-    validations:
-      required: false
 
   - type: textarea
     id: issues_faced
@@ -125,11 +118,7 @@ body:
       label: Related issues / PRs (links)
       description: Link any related GitHub issues or PRs.
 
-  - type: attachments
-    id: attachments
-    attributes:
-      label: Screenshots / files
-      description: Attach screenshots, config files, or manifests.
+  
 
   - type: textarea
     id: proposed_solution

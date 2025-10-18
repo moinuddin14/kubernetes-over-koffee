@@ -1,0 +1,138 @@
+name: "Issue (bug / feature / task)"
+description: "Bare-minimum issue form for the Kubernetes over Koffee repo. Title and Description are required. Use this for bugs, feature requests, and tasks."
+title: ""
+labels: [triage]
+assignees: []
+
+body:
+  - type: input
+    id: title_input
+    attributes:
+      label: Issue title
+      description: Provide a concise one-line summary. This will be used as the issue title.
+      placeholder: e.g. "Unable to deploy example app on minikube"
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Explain the problem or request in more detail. Include the goal and why it matters.
+      placeholder: |
+        Provide context, expected behavior, and any relevant links to docs or code.
+    validations:
+      required: true
+
+  - type: dropdown
+    id: issue_kind
+    attributes:
+      label: Type
+      description: Select the kind of issue
+      options:
+        - bug
+        - feature
+        - task
+        - question
+        - event
+    validations:
+      required: true
+
+  - type: dropdown
+    id: sig_selection
+    attributes:
+      label: Related SIG
+      description: Select the SIG most relevant to this issue. This will add the corresponding SIG label.
+      options:
+        - sig/node
+        - sig/network
+        - sig/storage
+        - sig/scalability
+        - sig/api-machinery
+        - sig/cli
+        - sig/auth
+        - sig/architecture
+        - sig/instrumentation
+        - sig/docs
+    validations:
+      required: true
+
+  - type: input
+    id: form_sig_label
+    attributes:
+      label: SIG label (auto)
+      description: Internal: the selected SIG label. Do not edit.
+    validations:
+      required: false
+
+  - type: textarea
+    id: issues_faced
+    attributes:
+      label: Issues faced / Observed problems
+      description: Describe any specific problems, errors, or blockers encountered when using or implementing this feature.
+      placeholder: |
+        Error messages, unexpected behavior, workflow blockers, commands that fail, etc.
+
+  - type: textarea
+    id: steps_to_reproduce
+    attributes:
+      label: Steps to reproduce (for bugs)
+      description: Minimal reproducible steps, commands, or configuration.
+      placeholder: |
+        1. kubectl apply -f ...
+        2. kubectl get pods
+        3. Observe error
+
+  - type: textarea
+    id: expected_behavior
+    attributes:
+      label: Expected behavior
+      description: What you expected to happen.
+
+  - type: textarea
+    id: actual_behavior
+    attributes:
+      label: Actual behavior
+      description: What actually happened, including error output or logs.
+
+  - type: input
+    id: environment
+    attributes:
+      label: Environment
+      description: OS, Kubernetes distribution & version, tooling versions (kubectl, helm, etc.)
+      placeholder: e.g. "Ubuntu 24.04, k3s v1.28.0, kubectl v1.28.0"
+
+  - type: textarea
+    id: logs_and_debug
+    attributes:
+      label: Relevant logs / debug output
+      description: Paste relevant log snippets, stack traces, or a link to a gist.
+
+  - type: dropdown
+    id: priority
+    attributes:
+      label: Priority
+      options:
+        - priority/low
+        - priority/medium
+        - priority/high
+        - priority/critical
+      description: How urgently this should be addressed.
+
+  - type: input
+    id: related_issues
+    attributes:
+      label: Related issues / PRs (links)
+      description: Link any related GitHub issues or PRs.
+
+  - type: attachments
+    id: attachments
+    attributes:
+      label: Screenshots / files
+      description: Attach screenshots, config files, or manifests.
+
+  - type: textarea
+    id: proposed_solution
+    attributes:
+      label: Proposed fix or next steps (optional)
+      description: If you have an idea for a fix or workaround, describe it here.

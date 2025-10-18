@@ -1,0 +1,68 @@
+
+# Labels for Kubernetes SIGs and general triage
+- name: sig/node
+  color: '0e8a16'
+  description: 'SIG: Node'
+- name: sig/network
+  color: 'fbca04'
+  description: 'SIG: Network'
+- name: sig/storage
+  color: '5319e7'
+  description: 'SIG: Storage'
+- name: sig/scalability
+  color: '006b75'
+  description: 'SIG: Scalability'
+- name: sig/api-machinery
+  color: 'd93f0b'
+  description: 'SIG: API Machinery'
+- name: sig/cli
+  color: '1d76db'
+  description: 'SIG: CLI (kubectl, etc)'
+- name: sig/auth
+  color: 'b60205'
+  description: 'SIG: Auth'
+- name: sig/architecture
+  color: '0e8a16'
+  description: 'SIG: Architecture'
+- name: sig/instrumentation
+  color: 'd4c5f9'
+  description: 'SIG: Instrumentation'
+- name: sig/docs
+  color: '006b75'
+  description: 'SIG: Docs'
+- name: help wanted
+  color: '008672'
+  description: 'Extra attention needed from contributors'
+- name: good first issue
+  color: '7057ff'
+  description: 'Good for newcomers'
+- name: triage
+  color: 'd93f0b'
+  description: 'Needs triage'
+- name: bug
+  color: 'd73a4a'
+  description: 'Bug report'
+- name: feature
+  color: 'a2eeef'
+  description: 'New feature or request'
+- name: task
+  color: '0e8a16'
+  description: 'General task'
+- name: question
+  color: 'fbca04'
+  description: 'Question about usage or behavior'
+- name: event
+  color: '0366d6'
+  description: 'Meetup / event related item'
+- name: priority/low
+  color: '0e8a16'
+  description: 'Low priority'
+- name: priority/medium
+  color: 'fbca04'
+  description: 'Medium priority'
+- name: priority/high
+  color: 'd93f0b'
+  description: 'High priority'
+- name: priority/critical
+  color: 'b60205'
+  description: 'Critical priority'

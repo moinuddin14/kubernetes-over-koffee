@@ -1,0 +1,11 @@
+# Map sig labels to owner GitHub usernames or teams (team format: org/team-name)
+sig/node: moinuddin14
+sig/network: moinuddin14
+sig/storage: moinuddin14
+sig/scalability: moinuddin14
+sig/api-machinery: moinuddin14
+sig/cli: moinuddin14
+sig/auth: moinuddin14
+sig/architecture: moinuddin14
+sig/instrumentation: moinuddin14
+sig/docs: moinuddin14

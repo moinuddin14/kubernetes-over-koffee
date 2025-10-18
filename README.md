@@ -15,6 +15,16 @@ You can find all the meetup sessions, both present, past and future [here](https
 | Kubernetes version 1.34 Features and Enhancements Walkthrough | Saturday, Oct 25, 2025 | _https://www.meetup.com/kubernetes-over-koffee/events/310916099/_ | TBD | Looking for Venue | None |
 
 
-
 # What should be our next session?
 
+Raise an issue [here](https://github.com/moinuddin14/kubernetes-over-koffee/issues), what should be our next session and based on the votes we will do the sessions in that order
+
+If you are interested in presenting any session, feel free to raise an issue under New issue > Event/Meetup > Fill in all details and i will get in touch with you. 
+
+# More about Kubernetes over Koffee or #kok in short
+
+I saw a lot of potential in the open source community of Hyderabad, India. But then many weren't sure how to dive into the multiple layers of the open source world, get to know the bahind the scenes of working of Kubernetes and it's eco system of tools/products, and that's where this idea of doing a weekly/bi-weekly meetup of absolute deep dives (no surface level yaml files) was born. 
+
+With such an aggressive plan of such kind, i am always in look out for venues and would love to talk to anyone who would like to extend a helping hand by providing venue for any of the events. 
+
+You can always pick any event that you wish to be a venue partner and raise an issue, or even better fork this repo and update the README.yaml file with the venue details and i will reach out to you, so that we can plan further on how to go forward for that particular meetup session, what would be the max capacity, should we plan half-day or full-day sessions etc., 
